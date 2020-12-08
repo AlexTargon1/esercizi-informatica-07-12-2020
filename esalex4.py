@@ -11,8 +11,12 @@ elif figura == "quadrato":
 elif figura == "rettangolo":
     base = int(input("base = "))
     altezza = int(input("altezza = "))
+    area = (base*altezza)
+    print("area del rettangolo = ")
 elif figura == cerchio:
     raggio = int(input("raggio = "))
+    area = ((raggio**2)*3.14)
+    print("area del cerchio = ")
 
 
 
