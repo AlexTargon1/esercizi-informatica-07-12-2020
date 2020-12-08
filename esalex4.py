@@ -13,7 +13,7 @@ elif figura == "rettangolo":
     altezza = int(input("altezza = "))
     area = (base*altezza)
     print("area del rettangolo = ")
-elif figura == cerchio:
+elif figura == "cerchio":
     raggio = int(input("raggio = "))
     area = ((raggio**2)*3.14)
     print("area del cerchio = ")
